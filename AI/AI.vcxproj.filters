@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="Matrix.cu">
+      <Filter>Source\Utils</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d79a9231-6bfb-4b60-94cd-150aebd7a1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{1c319188-4e15-4d53-a9b7-c5f08fe6a11f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.cuh">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
